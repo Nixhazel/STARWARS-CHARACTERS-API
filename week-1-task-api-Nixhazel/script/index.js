@@ -27,14 +27,12 @@ function main() {
 				mainContainer.innerHTML = starwars.map((e) => {
 					i++;
 					let figs = `<figure >
-				                <img src= ${images[i - 1]} alt= "Character" >
-                                <figcaption class="x names">NAME : ${e.name}
-				                <figcaption class = "hideT">GENDER : ${e.gender}</figcaption>
-                                <figcaption class = "hideT">HEIGTH : ${
-																	e.height
-																}</figcaption>
-                                </figcaption>
-				            </figure>`;
+				                	<img src= ${images[i - 1]} alt= "Character" >
+                                			<figcaption class="x names">NAME : ${e.name}
+				                		<figcaption class = "hideT">GENDER : ${e.gender}</figcaption>
+                                				<figcaption class = "hideT">HEIGTH : ${e.height}</figcaption>
+                                			</figcaption>
+				            	</figure>`;
 					return figs;
 				});
 				Array.from(mainContainer.querySelectorAll(".x")).forEach((node) => {
