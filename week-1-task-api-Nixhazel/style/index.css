@@ -1,0 +1,100 @@
+*,
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Kanit', sans-serif;
+}
+body{
+  padding-bottom: 80px;
+}
+header {
+  text-align: center;
+  margin: 50px auto 50px;
+}
+h1{
+  margin: 15px auto;
+  font-size: xxx-large;
+  color: #2B3A55;
+}
+img{
+  height: 270px;
+  border-radius: 10px;
+}
+p{
+  margin: 30px auto;
+  font-size: larger;
+}
+#mainContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin: 0 auto;
+  
+}
+.x{
+  cursor: pointer;
+  font-size: large;
+  background-color: #CFD2CF;
+  border-radius: 8px;
+  padding: 10px;
+}
+/* .names{
+  color: #50577A;
+} */
+.hide{
+  visibility: hidden;
+}
+.show {
+  visibility: visible;
+}
+.showT{
+  display: inline-block;
+}
+.hideT{
+  display: none;
+}
+.displaybtn {
+  background: #60676b;
+  background-image: -webkit-linear-gradient(top, #60676b, #8d99a1);
+  background-image: -moz-linear-gradient(top, #60676b, #8d99a1);
+  background-image: -ms-linear-gradient(top, #60676b, #8d99a1);
+  background-image: -o-linear-gradient(top, #60676b, #8d99a1);
+  background-image: linear-gradient(to bottom, #60676b, #8d99a1);
+  -webkit-border-radius: 45;
+  -moz-border-radius: 45;
+  border-radius: 45px;
+  text-shadow: 1px 1px 3px #666666;
+  font-family: 'Kanit', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.displaybtn:hover {
+  background: #c1cbd1;
+  background-image: -webkit-linear-gradient(top, #c1cbd1, #0a0a0a);
+  background-image: -moz-linear-gradient(top, #c1cbd1, #0a0a0a);
+  background-image: -ms-linear-gradient(top, #c1cbd1, #0a0a0a);
+  background-image: -o-linear-gradient(top, #c1cbd1, #0a0a0a);
+  background-image: linear-gradient(to bottom, #c1cbd1, #0a0a0a);
+  text-decoration: none;
+}
+.displaybtn:active {
+  transform: scale(0.98) ;
+}
+
+@media screen  and (max-width: 497px){
+  img{
+    width: 200px;
+  }
+  .displaybtn{
+    width: 300px;
+  }
+  
+}
